@@ -3,7 +3,7 @@ function produceDrivingRange() {
 }
 
 function produceTipCalculator(tip) {
-  function (dollar) { 
+  function (dollar) {
   return tip * dollar / 100
 }
 }
