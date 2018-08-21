@@ -2,8 +2,10 @@ function produceDrivingRange() {
 
 }
 
-function produceTipCalculator() {
-
+function produceTipCalculator(tip) {
+  function (dollar) { 
+  return tip * dollar / 100
+}
 }
 
 function createDriver() {
