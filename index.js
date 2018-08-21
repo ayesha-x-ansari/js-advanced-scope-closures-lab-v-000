@@ -1,5 +1,7 @@
-function produceDrivingRange() {
-
+function produceDrivingRange(max) {
+    return function (start, end) {
+     return start - end > max? true : false
+    }
 }
 
 function produceTipCalculator(tip) {
