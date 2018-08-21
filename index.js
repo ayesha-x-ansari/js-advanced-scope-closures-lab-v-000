@@ -1,6 +1,10 @@
 function produceDrivingRange(max) {
+    
     return function (start, end) {
-     return start - end > max? true : `${end  - start} blocks out of range`
+      debuggerlet dist = Math.abs(parseInt(end)-parseInt(start))
+      let dist = Math.abs(parseInt(end)-parseInt(start))
+     return dist < max  ? `within range by ${max - dist}` : `${end  - start} blocks out of range`
+     debugger
     }
 }
 
