@@ -1,6 +1,6 @@
 function produceDrivingRange(max) {
     return function (start, end) {
-     return start - end > max? true : `${start - end} blocks out of range`
+     return start - end > max? true : `${end  - start} blocks out of range`
     }
 }
 
